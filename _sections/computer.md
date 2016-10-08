@@ -11,18 +11,18 @@ order: 7
 
 All students must bring their own MacBook laptop. Your MacBook should have a minimum of 4 GB of RAM and 128 GB of hard drive space. Those are minimum specs, but I **strongly** recommend getting 8 GB of RAM.
 
-Here are the current [MacBook Air models](http://www.apple.com/macbook-air/specs.html) and [MacBook Pro models](http://www.apple.com/macbook-pro/specs-retina/). Your MacBook MUST be running OS X El Capitan. This is free upgrades from the App Store.
+Here are the current [MacBook Air models](http://www.apple.com/macbook-air/specs.html) and [MacBook Pro models](http://www.apple.com/macbook-pro/specs-retina/). Your MacBook MUST be running macOS **Sierra** which is a free upgrade from the mac AppStore.
 
 Do not go with the new, skinny 12" Retina MacBooks. Their processor will be too sluggish in a year or two.
 
 ### Operating System
 
-You'll need to install OS X El Capitan if your Mac didn't have it pre-installed or you haven't upgraded already.
+You'll need to install macOS Sierra if your Mac didn't have it pre-installed or you haven't upgraded already.
 
-1.  Download the El Capitan upgrade from the Apple Store: [download here](https://itunes.apple.com/us/app/os-x-el-capitan/id1018109117?mt=12).
+1. Download the macOS Sierra upgrade from the Apple Store: [download here](https://itunes.apple.com/us/app/macos-sierra/id1127487414?mt=12).
 2.  You'll need to sign in to your Mac's 'App Store' with your [Apple ID](https://appleid.apple.com/).
-3.  Double-click "Install OS X El Capitan" to begin installation.  
-*WARNING*: The OS X upgrade can take a bit of time to complete and will require a restart. Plan on doing this in the evening or over a lunch break.
+3.  Double-click "Install macOS Sierra" to begin installation.  
+*WARNING*: The macOS upgrade can take a bit of time to complete and will require a restart. Plan on doing this in the evening or over a lunch break.
 
 ### Additional Software
 
