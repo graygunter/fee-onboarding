@@ -21,8 +21,8 @@ HTML and CSS will be covered in depth during the course, but this basic introduc
 
 [http://www.codecademy.com/en/tracks/web](http://www.codecademy.com/en/tracks/web)
 
-* Complete Units 1-5
-* _Do not worry about any sections requiring a "Pro" account_
+* Complete the HTML & CSS Unit
+* _Do not worry about any content requiring a "Pro" account_
 
 #### Optional
 
@@ -40,8 +40,8 @@ Similar to HTML and CSS, JavaScript will be a large focus in our class. This int
 
 [https://www.codecademy.com/learn/javascript](https://www.codecademy.com/learn/javascript)
 
-* Complete Units 1, 2, 3, 5 and 6
-* _Do not worry about any sections requiring a "Pro" account_
+* See how far you get! Don't get bogged down with any one section. Try to grasp the concepts more so than just getting the code to work.
+* _Do not worry about any content requiring a "Pro" account_
 
 #### Optional
 
@@ -62,6 +62,7 @@ Read and practice the following:
 
 * [What is the command line?](https://www.davidbaumgold.com/tutorials/command-line/#what-is-the-command-line?)
 * [Learn the command line](https://www.codecademy.com/learn/learn-the-command-line)
+  * Only sections 1 & 2 ("Navigating the File System" and "Viewing and Changing the File System")
 
 #### Supplemental
 
