@@ -1,0 +1,211 @@
+<!DOCTYPE HTML5>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bahama Bill's</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="site-title">
+                <h1>Bahama Bill's</h1>
+            </div>
+        </header>
+        <hr/>
+        <div class="store-menu">
+            <nav class=store-menu-a>
+                <a href="#">New Arrivals</a>
+                <a href="#"><i class="fa fa-male" aria-hidden="true"></i> Men</a>
+                <a href="#"><i class="fa fa-female" aria-hidden="true"></i> Women</a>
+                <a href="#"><i class="fa fa-child" aria-hidden="true"></i> Kids</a>
+            </nav>
+            <nav class=store-menu-b>
+                <a href="#">Shopping Cart
+            <a id="clicks">0</a></a>
+            </nav>
+        </div>
+        <hr/>
+        <div class="top-container">
+            <div class="shirt1-container">
+                <div class="shirt1" id=shirt1>
+                    <i class="fa fa-share" id="flip" aria-hidden="true"></i>
+                    <div class="dropdown">
+                        <div class="dropdown-content" id="colors">
+                            <i class="fa fa-square fa-3x" id="blue-square" aria-hidden="true"></i>
+                            <i class="fa fa-square fa-3x" id="pink-square" aria-hidden="true"></i>
+                            <i class="fa fa-square fa-3x" id="yellow-square" aria-hidden="true"></i>
+                            <i class="fa fa-square fa-3x" id="green-square" aria-hidden="true"></i>
+                            <div class="color-arrow-down"></div>
+                        </div>
+                        <div class="dropdown-content-2" id="sizes">
+                            <div class="shirt-size" id="XL">
+                                <p>XL</p>
+                            </div>
+                            <div class="shirt-size" id="L">
+                                <p>L</p>
+                            </div>
+                            <div class="shirt-size" id="M">
+                                <p>M</p>
+                            </div>
+                            <div class="shirt-size" id="S">
+                                <p>S</p>
+                            </div>
+                            <div class="size-arrow-down"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="icons">
+                    <i class="fa fa-refresh fa-2x" id="refresh" aria-hidden="true"></i>
+                    <i class="fa fa-heart-o fa-2x" id="heart" aria-hidden="true"></i>
+                    <i class="fa fa-level-up fa-2x" id="up" aria-hidden="true"></i>
+                    <i class="fa fa-square fa-2x" id="square" aria-hidden="true"></i>
+                    <i class="fa fa-shopping-cart fa-2x" id="cart" aria-hidden="true" onClick="onClick()"></i>
+                </div>
+                <div class="shirt1-info">
+                    <span>Save My Trees</span>
+                    <span class=price><i class="fa fa-usd" aria-hidden="true"></i>29</span>
+                </div>
+            </div>
+
+            <div class="shirt2-container">
+                <div class="shirt2" id=shirt1>
+                    <i class="fa fa-share" id="flip" aria-hidden="true"></i>
+                    <div class="dropdown">
+                        <div class="dropdown-content" id="colors-2">
+                            <i class="fa fa-square fa-3x" id="blue-square" aria-hidden="true"></i>
+                            <i class="fa fa-square fa-3x" id="pink-square" aria-hidden="true"></i>
+                            <i class="fa fa-square fa-3x" id="yellow-square" aria-hidden="true"></i>
+                            <i class="fa fa-square fa-3x" id="green-square" aria-hidden="true"></i>
+                            <div class="color-arrow-down"></div>
+                        </div>
+                        <div class="dropdown-content-2" id="sizes-2">
+                            <div class="shirt-size" id="XL">
+                                <p>XL</p>
+                            </div>
+                            <div class="shirt-size" id="L">
+                                <p>L</p>
+                            </div>
+                            <div class="shirt-size" id="M">
+                                <p>M</p>
+                            </div>
+                            <div class="shirt-size" id="S">
+                                <p>S</p>
+                            </div>
+                            <div class="size-arrow-down"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="icons">
+                    <i class="fa fa-refresh fa-2x" id="refresh-2" aria-hidden="true"></i>
+                    <i class="fa fa-heart-o fa-2x" id="heart-2" aria-hidden="true"></i>
+                    <i class="fa fa-level-up fa-2x" id="up-2" aria-hidden="true"></i>
+                    <i class="fa fa-square fa-2x" id="square-2" aria-hidden="true"></i>
+                    <i class="fa fa-shopping-cart fa-2x" id="cart-2" aria-hidden="true" onClick="onClick()"></i>
+                </div>
+                <div class="shirt1-info">
+                    <span>Nature Lover</span>
+                    <span class=price><i class="fa fa-usd" aria-hidden="true"></i>29</span>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <div class="shirt3-container">
+                <div class="shirt3" id=shirt3>
+                    <i class="fa fa-share" id="flip" aria-hidden="true"></i>
+                    <div class="dropdown">
+                        <div class="dropdown-content" id="colors-3">
+                            <i class="fa fa-square fa-3x" id="blue-square" aria-hidden="true"></i>
+                            <i class="fa fa-square fa-3x" id="pink-square" aria-hidden="true"></i>
+                            <i class="fa fa-square fa-3x" id="yellow-square" aria-hidden="true"></i>
+                            <i class="fa fa-square fa-3x" id="green-square" aria-hidden="true"></i>
+                            <div class="color-arrow-down"></div>
+                        </div>
+                        <div class="dropdown-content-2" id="sizes-3">
+                            <div class="shirt-size" id="XL"><p>XL</p>
+                            </div>
+                            <div class="shirt-size" id="L"><p>L</p>
+                            </div>
+                            <div class="shirt-size" id="M"><p>M</p>
+                            </div>
+                            <div class="shirt-size" id="S"><p>S</p>
+                            </div>
+                            <div class="size-arrow-down"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="icons">
+                    <i class="fa fa-refresh fa-2x" id="refresh-3" aria-hidden="true"></i>
+                    <i class="fa fa-heart-o fa-2x" id="heart-3" aria-hidden="true"></i>
+                    <i class="fa fa-level-up fa-2x" id="up-3" aria-hidden="true"></i>
+                    <i class="fa fa-square fa-2x" id="square-3" aria-hidden="true"></i>
+                    <i class="fa fa-shopping-cart fa-2x" id="cart-3" aria-hidden="true" onClick="onClick()"></i>
+                </div>
+                <div class="shirt1-info">
+                    <span>Beach Walk</span>
+                    <span class=price><i class="fa fa-usd" aria-hidden="true"></i>29</span>
+                </div>
+            </div>
+
+            <div class="shirt4-container">
+                <div class="shirt4" id=shirt4>
+                    <i class="fa fa-share" id="flip" aria-hidden="true"></i>
+                    <div class="dropdown">
+                        <div class="dropdown-content" id="colors-4">
+                            <i class="fa fa-square fa-3x" id="blue-square" aria-hidden="true"></i>
+                            <i class="fa fa-square fa-3x" id="pink-square" aria-hidden="true"></i>
+                            <i class="fa fa-square fa-3x" id="yellow-square" aria-hidden="true"></i>
+                            <i class="fa fa-square fa-3x" id="green-square" aria-hidden="true"></i>
+                            <div class="color-arrow-down"></div>
+                        </div>
+                        <div class="dropdown-content-2" id="sizes-4">
+                            <div class="shirt-size" id="XL"><p>XL</p>
+                            </div>
+                            <div class="shirt-size" id="L"><p>L</p>
+                            </div>
+                            <div class="shirt-size" id="M"><p>M</p>
+                            </div>
+                            <div class="shirt-size" id="S"><p>S</p>
+                            </div>
+                            <div class="size-arrow-down"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="icons">
+                    <i class="fa fa-refresh fa-2x" id="refresh-4" aria-hidden="true"></i>
+                    <i class="fa fa-heart-o fa-2x" id="heart-4" aria-hidden="true"></i>
+                    <i class="fa fa-level-up fa-2x" id="up-4" aria-hidden="true"></i>
+                    <i class="fa fa-square fa-2x" id="square-4" aria-hidden="true"></i>
+                    <i class="fa fa-shopping-cart fa-2x" id="cart-4" aria-hidden="true" onClick="onClick()"></i>
+                </div>
+                <div class="shirt1-info">
+                    <span>Pineappple Paradise</span>
+                    <span class=price><i class="fa fa-usd" aria-hidden="true"></i>
+                  29</span>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <hr/>
+            <nav class=store-menu-c>
+                <a href="#">New Arrivals</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#" id="smooth-scroll"><i class="fa fa-arrow-up" aria-hidden="true"></i>
+ Back to Top</a>
+            </nav>
+        </footer>
+    </div>
+
+    </article>
+    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="js/general.js"></script>
+</body>
+</div>
+
+</html>
