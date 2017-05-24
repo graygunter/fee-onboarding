@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html {
+  font-size: 10px; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  font-size: 10px; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'De Valencia';
+  src: url("fonts/De Valencia (beta).otf"); }
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%; }
+  body .me {
+    background-image: url("../../img/portfolio/me.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    height: 200px;
+    width: 200px; }
+  body a {
+    color: white;
+    text-decoration: none; }
+    body a:hover {
+      background-color: unset;
+      cursor: pointer; }
+  body .navbar {
+    background-color: white;
+    opacity: .8;
+    padding: .5rem;
+    width: 100%; }
+    body .navbar a {
+      color: white;
+      font-family: 'De Valencia', sans-serif;
+      font-size: 1.6rem;
+      margin: 0 auto;
+      padding-right: 1.5%; }
+  body .projects {
+    box-sizing: border-box; }
+    body .projects h3 {
+      margin: 0; }
+    body .projects p {
+      margin-bottom: .3rem; }
+    body .projects .project {
+      display: inline-block;
+      height: 25rem;
+      margin: .5%;
+      min-width: 310px;
+      padding: 0 .5%;
+      vertical-align: top;
+      width: 29%; }
+    body .projects .museum {
+      background-image: url("../../img/portfolio/museum-screenshot.jpg"); }
+    body .projects .tshirts {
+      background-image: url("../../img/portfolio/tshirts-screenshot.jpg"); }
+  body h3 {
+    font-size: 2.5rem;
+    margin: 1.5rem; }
+  body h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem; }
+  body .about-me {
+    margin: 1rem auto;
+    width: 90%; }
+  body .screenshot {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40%;
+    margin: .3rem auto;
+    vertical-align: top; }
+    body .screenshot:hover {
+      background-color: unset;
+      cursor: pointer; }
+  body footer {
+    height: 5rem; }
+
+/*# sourceMappingURL=style.css.map */

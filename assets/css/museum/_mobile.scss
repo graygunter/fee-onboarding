@@ -1,0 +1,79 @@
+@media only screen and (max-width: 480px) {
+      .logo-and-search {
+      width: 100%;
+      h1 {
+        background-position: center;
+        background-size: 80%;
+      }
+    }
+  .banner {
+    h2 {
+      font-size: 2rem;
+    }
+    h3 {
+      color: $ddgrey;
+      font-size: 1.45rem;
+      margin: 0;
+    }
+    h4 {
+      font-size: 1.24rem;
+      margin: none;
+    }
+  }
+  .banner .hiddenform {
+    margin: .5rem auto;
+  }
+  .banner .hiddenform {
+    .searchbox {
+      border-radius: .15rem;
+      font-size: .5rem;
+      width: 90%;
+    }
+    .searchbutton {
+      height: 4.25rem;
+      width: 90%;
+    }
+  }
+  .membership-form .columns .column {
+    width: 100%;
+  }
+  .membership-submit .membership-submit-item {
+    display: block;
+    width: 100%;
+  }
+  .membership-submit-button {
+    border-radius: .15rem;
+    width: 99%;
+  }
+  .logo-and-search {
+    h1 {
+      width:100%;
+    }
+  }
+  .secondary-nav {
+    margin: 2rem auto;
+    width: 95%;
+    ul {
+      border: .15rem solid $dgrey;
+      border-radius: $br;
+      li {
+        background-image: none;
+        border-bottom: .15rem solid $dgrey;
+        padding: 1.2rem;
+        &:last-child {
+          border-bottom: none;
+        }
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+    .secondary-nav-item {
+      width: 100%;
+      text-align: center;
+      h3 {
+        text-align: left;
+      }
+    }
+  }
+}

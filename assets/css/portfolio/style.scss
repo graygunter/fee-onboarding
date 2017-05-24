@@ -1,0 +1,97 @@
+@import 'variables';
+@import 'mixins';
+@import 'reset';
+@font-face {
+  font-family: 'De Valencia';
+  src: url('fonts/De Valencia (beta).otf');
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  .me {
+    background-image: url('../../img/portfolio/me.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    height: 200px;
+    width: 200px;
+
+  }
+  a {
+    @include mouse-over;
+    color: white;
+    text-decoration: none;
+  }
+  .navbar {
+    background-color: white;
+    opacity: .8;
+    padding: .5rem;
+    width: 100%;
+    a {
+      color: white;
+      font-family: 'De Valencia', sans-serif;
+      font-size: 1.6rem;
+      margin: 0 auto;
+      padding-right: 1.5%;
+    }
+  }
+  .projects {
+    box-sizing: border-box;
+    h3 {
+      margin: 0;
+    }
+    p {
+      margin-bottom: .3rem;
+    }
+    .project {
+      display: inline-block;
+      height: 25rem;
+      margin: .5%;
+      min-width: 310px;
+      padding: 0 .5%;
+      vertical-align: top;
+      width: 29%;
+    }
+    .final {
+    }
+    .museum {
+      background-image: url('../../img/portfolio/museum-screenshot.jpg')
+    }
+    .tshirts {
+      background-image: url('../../img/portfolio/tshirts-screenshot.jpg')
+    }
+  }
+  h3 {
+    font-size: 2.5rem;
+    margin: 1.5rem;
+  }
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+  }
+  .about-me {
+    margin: 1rem auto;
+    width: 90%;
+  }
+  .screenshot {
+    @include mouse-over;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40%;
+    margin: .3rem auto;
+    vertical-align: top;
+  }
+  .contact {
+    .email {}
+  }
+  footer {
+    height: 5rem;
+  }
+}

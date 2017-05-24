@@ -1,0 +1,212 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch; }
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #333; }
+
+h1 {
+  margin-bottom: 30px;
+  margin-top: 30px; }
+
+h1, h3 {
+  font-size: 35px; }
+
+/* Paragraph & Typographic */
+p {
+  line-height: 4rem;
+  font-size: 2.5rem; }
+
+.centered {
+  text-align: center; }
+
+/* Links */
+a {
+  color: #1abc9c;
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in; }
+
+a:hover,
+a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0; }
+
+a:before,
+a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in; }
+
+.hide-text {
+  background-size: cover;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0 2em;
+  padding: 0; }
+
+.navbar {
+  text-transform: uppercase;
+  margin-bottom: 0px; }
+
+.navbar-inverse {
+  padding-bottom: 5px;
+  padding-top: 5px; }
+
+.navbar-inverse {
+  background-color: #2A5B7F;
+  border-color: #144CA8;
+  box-shadow: 0 3px 20px; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white; }
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #222222; }
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1.5px; }
+
+.navbar-inverse .navbar-brand {
+  color: white; }
+
+.navbar-inverse .navbar-toggle {
+  border-color: transparent; }
+
+.progress-bar-theme {
+  background-color: #1abc9c; }
+
+/* Helpers */
+.mt {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.pt {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+/* +++++ WRAP SECTIONS +++++ */
+#ww {
+  background: url("../img/seigaiha.png");
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.profile-pic {
+  background-image: url("../img/sloan.jpg");
+  border: 10px solid #2A5B7F;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 1px 1px 10px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: inset 1px 1px 10px 0 rgba(0, 0, 0, 0.75);
+  height: 200px;
+  width: 200px; }
+
+.work .project {
+  background-size: cover;
+  border: 10px solid #2A5B7F;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 1px 1px 10px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: inset 1px 1px 10px 0 rgba(0, 0, 0, 0.75);
+  height: 200px;
+  margin: 0 auto 2rem;
+  width: 200px; }
+  .work .project.dirt-cheap {
+    background-image: url("../img/dirtcheapgames.jpg"); }
+  .work .project.museum {
+    background-image: url("../img/museumproject.jpg"); }
+  .work .project.shirts {
+    background-image: url("../img/tshirtproject.jpg"); }
+
+#footer {
+  background-color: #2f2f2f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center; }
+  #footer a {
+    margin: 0 10px; }
+
+/* +++++ Color Wraps / Blog Page +++++ */
+#grey {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f2f2f2; }
+
+#white {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff; }
+
+/* Blog Date*/
+bd {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  font-weight: 700; }
+
+/* Blog Author*/
+ba {
+  font-size: 12px;
+  text-transform: uppercase; }
+
+/* Blog Quote */
+.bq {
+  font-size: 22px;
+  padding-top: 30px; }
+
+/* Blog Tags */
+bt {
+  font-size: 12px; }
+
+/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
+/* Effects also are controled by hover.zoom.js */
+.zoom {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background: transparent url(../img/loader.gif) no-repeat center; }
+
+.zoomOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  background-image: url(../img/zoom.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.zoom2 {
+  opacity: 1; }
+
+.zoom2:hover {
+  opacity: 0.5; }
+
+/* glyphicon Configuration */
+.glyphicon {
+  font-size: 40px;
+  color: #1abc9c; }
+
+/*# sourceMappingURL=main.css.map */
